@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 清华大学开源软件镜像站
-brand: Tsinghua Open Source Mirrors
+title: 重庆大学开源软件镜像站
+brand: Chongqing University Open Source Mirror Site
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: "/:categories/:title/"
-url: "https://mirrors.tuna.tsinghua.edu.cn"
+url: "https://mirrors.cqu.edu.cn"
 
 # Build settings
 highlighter: rouge
@@ -25,19 +25,16 @@ sass:
 
 gems:
     - jekyll-babel
-    - jekyll-sitemap
 
 babel_js_extensions: 'es6'
 
-exclude: [Gemfile, Gemfile.lock, README.md, gen_robot.sh, vendor, geninfo/, gen_robot.sh, gen_desc.py, Dockerfile*]
+exclude: [Gemfile, Gemfile.lock, README.md, gen_robot.sh, vendor, geninfo/,
+          gen_robot.sh, gen_desc.py, deploy.sh, web.tar.gz, Dockerfile*]
 
 # Content Related
 new_mirrors:
-    - adobe-fonts
-    - tinycorelinux
-    - zabbix
-    - lineage-rom
-    - lineageOS
-
+    - CTAN
+    - linux-stable.git
+    - linux.git
 
 # vim: ts=2 sts=2 sw=2 expandtab

@@ -1,10 +1,6 @@
 ---
 ---
 $(document).ready(() => {
-var lei3Po8h = ["support", ["tuna", "tsinghua", "edu", "cn"].join(".")].join("@");
-$('a#eib1gieB')
-	.text(lei3Po8h)
-	.attr('href', atob('bWFpbHRvOgo=') + lei3Po8h);
 
 $('.selectpicker').selectpicker()
 
@@ -28,18 +24,12 @@ var mir_tmpl = $("#template").text(),
 	{
 		'status': 'success',
 		'last_update': '-',
-		'name': "AUR",
-		'url': 'https://aur.tuna.tsinghua.edu.cn/',
-		'upstream': 'https://aur.archlinux.org/'
+		'name': "centos",
+		'url': '/centos',
+		'upstream': ''
 	}
 	],
 	options = {
-		'AOSP': {
-			'url': "/help/AOSP/"
-		},
-		'lineageOS': {
-			'url': "/help/lineageOS/"
-		},
 		'homebrew': {
 			'url': "/help/homebrew/"
 		},
@@ -51,16 +41,7 @@ var mir_tmpl = $("#template").text(),
 		},
 		'git-repo': {
 			'url': "/help/git-repo/"
-		},
-		'chromiumos': {
-			'url': "/help/chromiumos/"
-		},
-		'weave': {
-			'url': "/help/weave/"
-		},
-		'CocoaPods': {
-			'url': "/help/CocoaPods/"
-		},
+		}
 	},
 	descriptions = {
 		{% for mir in site.data.mirror_desc %} '{{mir.name}}': '{{mir.desc}}' {% if forloop.index < forloop.length %},{% endif %}{% endfor %}

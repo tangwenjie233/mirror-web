@@ -1,4 +1,5 @@
-# TUNA mirrors 主页
+# CQU Mirrors 主页
+本主页是在 [TUNA 镜像主页](https://github.com/tuna/mirror-web) 的基础上做了一些个性化配置。感谢 TUNA。
 
 ## 运行 Demo
 
@@ -21,9 +22,9 @@ docker run -it -v /path/to/mirror-web/:/data builden
 为正常运行，一些动态数据文件需要下载
 
 ```
-wget https://mirrors.tuna.tsinghua.edu.cn/static/tunasync.json -O static/tunasync.json
-wget https://mirrors.tuna.tsinghua.edu.cn/static/tunet.json -O static/tunet.json
-wget https://mirrors.tuna.tsinghua.edu.cn/static/isoinfo.json -O static/isoinfo.json
+wget https://mirrors.cqu.edu.cn/static/tunasync.json -O static/tunasync.json
+wget https://mirrors.cqu.edu.cn/static/tunet.json -O static/tunet.json
+wget https://mirrors.cqu.edu.cn/static/isoinfo.json -O static/isoinfo.json
 ```
 
 之后 `jekyll serve` 即可运行 demo.
@@ -44,12 +45,4 @@ wget https://mirrors.tuna.tsinghua.edu.cn/static/isoinfo.json -O static/isoinfo.
 1. 对于相对不知名的镜像项目，首先用一两句话介绍该项目
 2. 写明使用方法, 使用 Github Flavored Markdown 格式
 3. 中英文字符间应留一个空格
-
-### 特殊用法
-
-#### 表单选择
-例如 <http://mirrors.tuna.tsinghua.edu.cn/help/tensorflow/> 中，通过表单选择操作系统和版本号，建议直接使用 Vue.js
-
-
-
 

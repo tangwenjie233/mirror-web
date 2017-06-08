@@ -12,12 +12,20 @@
     "desc": "为 Banana Pi 制作的，基于官方 Debian 仓库的发行版镜像和软件包仓库"
   },
   {
+    "name": "CPAN",
+    "desc": ""
+  },
+  {
     "name": "CRAN",
     "desc": "R 语言的可执行文件、源代码和说明文件，也收录了各种用户撰写的软件包"
   },
   {
     "name": "CTAN",
     "desc": "TeX 的各种发行版、软件包和文档"
+  },
+  {
+    "name": "CentOS",
+    "desc": ""
   },
   {
     "name": "CocoaPods",
@@ -80,6 +88,14 @@
     "desc": "Arch Linux 的安装镜像和官方软件包仓库"
   },
   {
+    "name": "archlinux-arm",
+    "desc": ""
+  },
+  {
+    "name": "archlinux-cn",
+    "desc": ""
+  },
+  {
     "name": "archlinuxarm",
     "desc": "用于 arm 平台的 Arch Linux 镜像和软件包仓库"
   },
@@ -118,6 +134,18 @@
   {
     "name": "chromiumos",
     "desc": "Google Chrome OS的开放源代码开发版本"
+  },
+  {
+    "name": "clojars",
+    "desc": ""
+  },
+  {
+    "name": "cpan",
+    "desc": ""
+  },
+  {
+    "name": "ctan",
+    "desc": ""
   },
   {
     "name": "ctex",
