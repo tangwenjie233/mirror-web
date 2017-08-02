@@ -29,12 +29,14 @@ gems:
 babel_js_extensions: 'es6'
 
 exclude: [Gemfile, Gemfile.lock, README.md, gen_robot.sh, vendor, geninfo/,
-          gen_robot.sh, gen_desc.py, deploy.sh, web.tar.gz, Dockerfile*]
+          gen_robot.sh, gen_desc.py, deploy*.sh, web.tar.gz, Dockerfile*]
 
 # Content Related
 new_mirrors:
     - CTAN
+    - gnu
     - linux-stable.git
     - linux.git
+    - kernel
 
 # vim: ts=2 sts=2 sw=2 expandtab

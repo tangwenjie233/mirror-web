@@ -8,6 +8,7 @@
 /static/js/vue.js
 /_site
 /deploy.sh
+/deploy_isoinfo.sh
 /.sass-cache/
 .bundle
 vendor

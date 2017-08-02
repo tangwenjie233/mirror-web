@@ -27,7 +27,35 @@ var mir_tmpl = $("#template").text(),
 		'name': "centos",
 		'url': '/centos',
 		'upstream': ''
-	}
+	},
+	{
+		'status': 'success',
+		'last_update': '-',
+		'name': "pypi",
+		'url': '/pypi',
+		'upstream': ''
+	},
+	{
+		'status': 'success',
+		'last_update': '-',
+		'name': "openwrt",
+		'url': '/openwrt',
+		'upstream': ''
+	},
+	{
+		'status': 'success',
+		'last_update': '-',
+		'name': "opensuse",
+		'url': '/opensuse',
+		'upstream': ''
+	},
+	{
+		'status': 'success',
+		'last_update': '-',
+		'name': "mariadb",
+		'url': '/mariadb',
+		'upstream': ''
+	},
 	],
 	options = {
 		'homebrew': {
