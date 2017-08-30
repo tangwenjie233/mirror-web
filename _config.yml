@@ -34,5 +34,5 @@ exclude: ['README.md', 'Gemfile*', '*.sh', 'geninfo/', '*.py', '*.tar.gz',
 # Content Related
 new_mirrors:
     - CRAN
-
+    - AOSP
 # vim: ts=2 sts=2 sw=2 expandtab
