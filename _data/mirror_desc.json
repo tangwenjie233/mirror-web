@@ -377,7 +377,7 @@
   },
   {
     "name": "openwrt",
-    "desc": "OpenWrt 软件包镜像源（仅喊Chaos Calmer版本）"
+    "desc": "OpenWrt 软件包镜像源（仅含Chaos Calmer版本）"
   },
   {
     "name": "osmc",
