@@ -23,7 +23,7 @@ kramdown:
 sass:
     sass_dir: static/css
 
-gems:
+plugins:
     - jekyll-babel
 
 babel_js_extensions: 'es6'
