@@ -3,7 +3,6 @@
 /Gemfile.lock
 /.jekyll-metadata
 /static/tunasync.json
-/static/isoinfo.json
 /static/tunet.json
 /static/js/vue.js
 /_site

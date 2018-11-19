@@ -1,0 +1,100 @@
+[
+    {
+        "distro": "Arch Linux",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/archlinux/iso/"
+            }
+        ]
+    },
+    {
+        "distro": "Debian",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/debian-cd/"
+            }
+        ]
+    },
+    {
+        "distro": "CentOS",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/centos/"
+            }
+        ]
+    },
+    {
+        "distro": "Ubuntu",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/ubuntu-releases/"
+            }
+        ]
+    },
+    {
+        "distro": "Deepin",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/deepin-cd/"
+            }
+        ]
+    },
+    {
+        "distro": "fedora",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/fedora/releases/"
+            }
+        ]
+    },
+    {
+        "distro": "kali",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/kali-images/"
+            }
+        ]
+    },
+    {
+        "distro": "opensuse",
+        "category": "os",
+        "urls": [
+            {
+                "name": "all",
+                "url": "/opensuse/distribution/"
+            }
+        ]
+    },
+    {
+        "distro": "TeX \u6392\u7248\u7cfb\u7edf",
+        "category": "app",
+        "urls": [
+            {
+                "name": "TeX Live (Windows & Linux)",
+                "url": "/CTAN/systems/texlive/Images/"
+            },
+            {
+                "name": "MacTeX (macOS)",
+                "url": "/CTAN/systems/mac/mactex/"
+            },
+            {
+                "name": "MikTeX (Windows)",
+                "url": "/CTAN/systems/win32/miktex/setup/"
+            }
+        ]
+    }
+]
