@@ -13,9 +13,7 @@ var mir_tmpl = $("#template").text(),
 		'failed': 'label-warning',
 		'paused': 'label-warning',
 	},
-	help_url = {
-		{% for h in site.categories['help'] %}"{{h.mirrorid}}": "{{h.url}}"{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
-	},
+	help_url = mirrors_list,
 	new_mirrors = {
 		{% for n in site.new_mirrors %}"{{n}}": true{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
 	},
